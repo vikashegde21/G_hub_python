@@ -13,6 +13,7 @@ class DataProcessor:
     def process_data(self):
         return [item for item in self.data if item['active']]
 
+
 def add_numbers(a: int, b: int) -> int:
     """Add two numbers together."""
     return a + b
