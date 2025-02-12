@@ -11,7 +11,7 @@ class DataProcessor:
         return None
 
     def process_data(self):
-        return [item for item in self.data if item['active']]
+        return [item for item in self.data if item["active"]]
 
 
 def add_numbers(a: int, b: int) -> int:
